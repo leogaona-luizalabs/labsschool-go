@@ -14,6 +14,18 @@
   version = "v1.4.0"
 
 [[projects]]
+  name = "github.com/gorilla/context"
+  packages = ["."]
+  revision = "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
+  version = "v1.1.1"
+
+[[projects]]
+  name = "github.com/gorilla/mux"
+  packages = ["."]
+  revision = "e3702bed27f0d39777b0b37b664b6280e8ef8fbf"
+  version = "v1.6.2"
+
+[[projects]]
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
@@ -70,6 +82,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "88ffdabbf1122e344d5bfbb31830c438530f873a3541997a03a217f7675991f3"
+  inputs-digest = "47617fde908f0856b56776ba3a540c9ce4cb2f65e13f6e010eb509282b6da3ab"
   solver-name = "gps-cdcl"
   solver-version = 1
